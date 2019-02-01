@@ -1,0 +1,556 @@
+/*.title {
+  color: white;
+}
+*/
+.container {
+  padding-bottom: 0px;
+}
+.status {
+  color: white;
+  padding: 10px;
+  background: #2196f3;
+}
+.bawah {
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: LouisGeorgeCafe;
+  src: url(../../assets/font/LouisGeorgeCafe.ttf) format("opentype");
+}
+/* input */
+.input1 .v-text-field__slot > input {
+  text-align: center;
+}
+
+.input2 > .input-group__input > input {
+  text-align: center;
+}
+
+.input3 {
+  height: auto;
+}
+.input3 .v-text-field__slot > input {
+  text-align: left;
+}
+
+/* table */
+.tablePurchase {
+  box-shadow: none !important;
+}
+.tablePurchase .table {
+  border-collapse: none !important;
+}
+.tablePurchase thead {
+  background-color: #f2f2f2;
+  height: 41px !important;
+  box-shadow: 0px 3px 5px 0 rgba(212, 219, 238, 0.75) !important;
+}
+.tablePurchase th {
+  font-family: LouisGeorgeCafe;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6747cd !important;
+}
+.tablePurchase th.column.sortable.active i {
+  color: #6747cd !important;
+}
+.tablePurchase tbody tr {
+  border-bottom: 1px solid #cccccc !important;
+}
+
+/* spanicon */
+.spanIcon {
+  font-family: LouisGeorgeCafe;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
+  font-family: LouisGeorgeCafe !important;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6747cd;
+}
+.titleModal {
+  font-family: LouisGeorgeCafe !important;
+  font-size: 21px;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.headerModal {
+  background-color: #6747cd;
+  text-align: center !important;
+  color: #ffffff !important;
+}
+
+.btnSave {
+  background-color: #6747cd !important;
+  width: 270px;
+  height: 54px;
+  font-family: LouisGeorgeCafe;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.btnadd {
+  font-family: LouisGeorgeCafe;
+  height: 60px;
+  text-transform: none;
+  border-radius: 10px;
+  border: dashed 2px #6747cd !important;
+  color: #6747cd !important;
+  font-size: 21px !important;
+  /*border-style: dashed !important;*/
+  /*border-width: 2px !important;*/
+}
+
+.btnToggle {
+  background-color: #f2f2f2 !important;
+  color: #d7d7d7 !important;
+}
+.btnToggle .v-btn:before {
+  opacity: 0;
+}
+
+.btnToggle .v-btn--active {
+  color: white;
+  background-color: #1fcaaf;
+}
+.btnToggle .v-btn--active:before {
+  /* color: white; */
+  /* background-color: green; */
+}
+.btnToggle .v-btn--active .v-btn__content {
+  color: white;
+}
+
+.dialog_modal {
+  border-radius: 40px !important;
+  background-color: #ffffff;
+  background-color: var(--white-three);
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.35);
+}
+.card_dialog {
+  background-color: red;
+}
+.retangle1 {
+  border-radius: 10px !important;
+  background-color: #fefefe;
+  box-shadow: 0px 5px 10px 0 rgba(212, 219, 238, 0.75) !important;
+}
+
+/* Select */
+.select1 {
+  height: 41px;
+  font-family: LouisGeorgeCafe !important;
+}
+.select1 .v-input__slot {
+  text-align: center !important;
+  color: #6747cd !important;
+  /* margin-left: 10px; */
+  border-radius: 20.5px !important;
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  background-color: #fefefe;
+  border: solid 1px #ebebeb;
+  font-family: LouisGeorgeCafe !important;
+  min-height: 2px !important;
+  height: 41px !important;
+}
+.menu__content--dropdwn {
+  border-radius: 20.5px !important;
+  box-shadow: 0px 5px 14.3px 0.8px rgba(212, 219, 238, 0.75) !important;
+  background-color: #fefefe !important;
+  border: solid 1px #ebebeb !important;
+  margin-top: 0px;
+  font-family: LouisGeorgeCafe;
+}
+.listPurchase .v-list__tile--link:hover {
+  border-radius: 20.5px;
+  background-color: #6747cd !important;
+  color: #ffffff !important;
+  font-family: LouisGeorgeCafe !important;
+  font-size: 16px;
+  border: solid 1px #ebebeb !important;
+}
+.listPurchase .v-list__tile {
+  font-family: LouisGeorgeCafe !important;
+  margin: 15px
+}
+
+.select2 {
+  height: 41px;
+}
+
+.select2 .v-input__slot,
+.select2required .v-input__slot {
+  text-align: center !important;
+  color: #6747cd !important;
+  /*margin-left: 10px;*/
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  border-radius: 20.5px !important;
+  background-color: #fefefe;
+  border: solid 1px #ebebeb;
+  font-family: LouisGeorgeCafe;
+  min-height: 2px !important;
+  height: 41px !important;
+}
+.selectDialog {
+  margin-bottom: 20px !important;
+  text-align: center !important;
+  color: #6747cd !important;
+  margin-left: 10px;
+  border-radius: 20.5px !important;
+  box-shadow: inset 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  background-color: #fefefe;
+  border: solid 1px #ebebeb;
+  font-family: LouisGeorgeCafe;
+  min-height: 2px !important;
+  height: 41px !important;
+}
+
+.btnnew {
+  font-family: LouisGeorgeCafe;
+  background-color: #1fcaaf !important;
+  margin: 0px 0px 0px 10px;
+}
+
+.labelRight {
+  justify-content: flex-end;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center !important;
+  font-family: LouisGeorgeCafe;
+  color: #6747cd !important;
+}
+
+.subheader1Center {
+  justify-content: center;
+}
+.subheader1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center !important;
+  font-family: LouisGeorgeCafe;
+  color: #6747cd !important;
+}
+
+/* hr */
+.hr1 {
+  margin: 0 36px;
+  height: 1px;
+  border: 0px;
+  background-color: #f2f2f2 !important;
+  box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  -moz-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+}
+.hr2 {
+  height: 1px;
+  border: 0px;
+  background-color: #cccccc !important;
+}
+.hrInSidebar {
+  height: 1px !important;
+  box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  -moz-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  background-color: #f2f2f2 !important;
+}
+.hrDialog {
+  margin: 0px 0px 10px 0px !important;
+  height: 1px;
+  border: 0px;
+  background-color: #f2f2f2 !important;
+  box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  -moz-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+}
+
+/* input */
+.input1,
+.input2 {
+  height: 41px;
+}
+.input1 .v-input__slot {
+  font-family: LouisGeorgeCafe;
+  border-radius: 20.5px !important;
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  background-color: #fefefe !important;
+  border: solid 1px #ebebeb !important;
+  min-height: 2px !important;
+  height: 41px !important;
+  padding: 0px !important;
+  text-align: center !important;
+  /* margin-left: 10px; */
+}
+.inputNumber .v-input__slot input {
+  text-align: right !important;
+}
+.input2 .v-input__slot {
+  font-family: LouisGeorgeCafe;
+  font-size: 16px !important;
+  border-radius: 20.5px !important;
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  margin-left: 10px;
+  background-color: #fefefe !important;
+  min-height: 2px !important;
+  height: 41px !important;
+  border: solid 1px #ebebeb !important;
+  /*padding: 0px !important;*/
+  text-align: center !important;
+}
+.input3 .v-input__slot {
+  font-family: LouisGeorgeCafe;
+  font-size: 16px !important;
+  border-radius: 20.5px !important;
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  /*margin-left: 10px;*/
+  background-color: #fefefe !important;
+  min-height: 2px !important;
+  height: 41px !important;
+  border: solid 1px #ebebeb !important;
+  /*padding: 0px !important;*/
+  /* text-align: center !important; */
+}
+
+
+/* .inputDialog {
+	height: 61px;
+	min-height: 2px;
+} */
+.inputDialog .v-input__slot {
+  font-family: LouisGeorgeCafe;
+  font-size: 16px !important;
+  border-radius: 20.5px !important;
+  box-shadow: inset 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  background-color: #fefefe !important;
+  border: solid 1px #ebebeb !important;
+  /*padding: 0px !important;*/
+  text-align: center !important;
+}
+
+.label1 {
+  font-family: LouisGeorgeCafe;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6747cd !important;
+  margin-bottom: 10px;
+}
+.margin-top {
+  margin-top: -6px !important;
+}
+.tealishBackground {
+  background-color: #1fcaaf !important;
+  color: white !important;
+}
+.lightBlueGreyBackground {
+  background-color: #d4dbee !important;
+}
+.blueyPurpleColor {
+  color: #6747cd !important;
+}
+.blueyPurpleBackground {
+  background-color: #6747cd !important;
+}
+.whiteColor {
+  color: white !important;
+}
+
+.documentAuditTrail,
+.body {
+  font-family: LouisGeorgeCafe;
+}
+
+.dateDocument {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.timeDocument {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #808080;
+}
+.nameDocument {
+  color: #6747cd;
+  font-size: 16px;
+}
+
+.jmlInvoice {
+  font-family: LouisGeorgeCafe;
+  font-size: 21px !important;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #808080 !important;
+  padding-left: 10px;
+}
+.garisTegak {
+  color: rgba(212, 219, 238, 0.75);
+  margin-left: 7px;
+}
+
+.popmenulist {
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+  background-color: #d4dbee !important;
+  color: #6747cd !important;
+}
+
+.listPop {
+  border-radius: 17.5px !important;
+  box-shadow: 0px 5px 14.3px 0.8px rgba(212, 219, 238, 0.75) !important;
+}
+.listPop .v-list__tile__title {
+  text-align: center;
+}
+.listPop .v-list__tile--link{
+  height: 36px;
+}
+.listPop .v-list__tile--link:hover {
+  border-radius: 18px !important;
+  background-color: #d4dbee !important;
+  height: 36px;
+}
+.listPop hr {
+  height: 1px;
+  background-color: #ccc !important;
+  margin: 0px 10px;
+}
+
+.backToList {
+  background-color: #fefefe;
+  box-shadow: 0px -5px 10px 0 rgba(212, 219, 238, 0.75);
+}
+
+.backToList .v-subheader {
+  color: #6747cd !important;
+}
+
+.backToList a {
+  text-decoration: none;
+  font-family: LouisGeorgeCafe;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6747cd !important;
+}
+
+.hrfooter {
+  height: 1px !important;
+  border: 0px;
+  background-color: #e6e6e6 !important;
+  box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+}
+.breadcrumbs {
+  background-color: #fefefe;
+  margin-bottom: 5px;
+  box-shadow: 0px 5px 10px 0 rgba(212, 219, 238, 0.75) !important;
+}
+.breadcrumbs .v-breadcrumbs__item, .breadcrumbs .v-breadcrumbs__divider {
+  color: #6747cd;
+  font-family: LouisGeorgeCafe;
+  font-size: 16px !important;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.titleToolbar {
+  font-family: LouisGeorgeCafe;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.required {
+  color: #ed2855;
+}
+
+.descriptionDelete {
+  font-family: LouisGeorgeCafe;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.btnYdialog {
+  border-radius: 20.5px;
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75);
+  background-color: #6747cd !important;
+  text-transform: none !important;
+  font-family: LouisGeorgeCafe;
+}
+
+.btnNdialog {
+  border-radius: 20.5px;
+  box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75);
+  background-color: #d4dbee !important;
+  text-transform: none !important;
+  color: #6747cd !important;
+  font-family: LouisGeorgeCafe;
+}
+

@@ -1,0 +1,135 @@
+/*.title {
+  color: white;
+}
+*/.status {
+  color: white;
+  padding: 10px;
+  background: #2196F3;
+}
+.bawah {
+  margin-top: 30px;
+}
+
+
+@font-face {
+	font-family: LouisGeorgeCafe;
+	src: url(../../assets/font/LouisGeorgeCafe.ttf) format("opentype");
+}
+.input-group__input > input {
+  text-align: center ;
+}
+.title {
+	font-family: LouisGeorgeCafe;
+	font-size: 21px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6747cd;
+}
+.retangle1{
+	border-radius: 10px !important;
+	background-color: #fefefe;
+	box-shadow: 0px 5px 10px 0 rgba(212, 219, 238, 0.75) !important;
+}
+
+/* Select */
+.select1 {
+	text-align: center !important;
+	color: #6747cd !important;
+	margin-left: 10px;
+	border-radius: 20.5px !important;
+	box-shadow: inset 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+	background-color: #fefefe;
+	border: solid 1px #ebebeb;
+  font-family: LouisGeorgeCafe;
+  min-height: 2px !important;
+  height: 41px !important;
+}
+.menu__content--dropdown {
+  border-radius: 20.5px !important;
+  box-shadow: 0px 5px 14.3px 0.8px rgba(212, 219, 238, 0.75) !important;
+  background-color: #fefefe !important;
+  border: solid 1px #ebebeb !important;
+  margin-top: 0px;
+  font-family: LouisGeorgeCafe;
+}
+.menu__content--select .list__tile--link:hover {
+  border-radius: 20.5px;
+  background-color: #6747cd !important;
+  color: #ffffff;
+  font-family: LouisGeorgeCafe;
+  font-size: 16px;
+  border: solid 1px #ebebeb !important;
+}
+
+
+.btnnew {
+	font-family: LouisGeorgeCafe;
+	background-color: #1fcaaf !important;
+}
+.subheader1 {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	font-family: LouisGeorgeCafe;
+	color: #6747cd !important;
+}
+
+.hr1 {
+	margin: 0 36px;
+  height: 1px;
+  border: 0px;
+	background-color: #f2f2f2 !important;
+	box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+	-moz-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+	-webkit-box-shadow: 0px 1px 3px 0 rgba(212, 219, 238, 0.75) !important;
+}
+
+/* input */
+.input1 {
+	font-family: LouisGeorgeCafe;
+	border-radius: 20.5px !important;
+	box-shadow: inset 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+	background-color: #fefefe !important;
+  border: solid 1px #ebebeb !important;
+  min-height: 2px !important;
+	height: 41px !important;
+	padding: 0px !important;
+  text-align: center !important;
+	margin-left: 10px;
+}
+.input2 {
+	font-family: LouisGeorgeCafe;
+	font-size: 16px !important;
+	border-radius: 20.5px !important;
+	box-shadow: 0px 2px 6px 0 rgba(212, 219, 238, 0.75) !important;
+	margin-left: 10px;
+  background-color: #fefefe !important;
+  min-height: 2px !important;
+	height: 41px !important;
+	border: solid 1px #ebebeb !important;
+	/*padding: 0px !important;*/
+	text-align: center !important;
+}
+
+.label1 {
+	font-family: LouisGeorgeCafe;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #6747cd !important;
+	margin-bottom: 10px;
+}
+.margin-top {
+	margin-top: -6px !important;
+}
